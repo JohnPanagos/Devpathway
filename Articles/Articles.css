@@ -1,8 +1,11 @@
 /* Background image */
 html {
-    background: url(pexels-lenin-estrada-117221-2569997.jpg) no-repeat right fixed;
+    background: url(pexels-lenin-estrada-117221-2569997.jpg) repeat-x right fixed;
     background-size: 600px 50%;
     background-color: #000000;
+    background-position: bottom;
+    margin-bottom: 1200px;
+    background-repeat: repeat-x;
 }
 
 
@@ -53,4 +56,41 @@ li a {
 
 li a:hover {
     background-color:  #cf23cf ; 
+}
+
+/*Article List*/
+
+#ArticleList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#ArticleContent {
+    font-family: Arial;
+    float: left;
+    border-right: 1px solid #111;
+}
+
+#ArticleContent:last-child {
+border-right: none;
+}
+
+#ArticleContent a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#ArticleContent a:hover {
+    background-color:  red ; 
 }
