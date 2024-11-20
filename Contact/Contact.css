@@ -1,6 +1,6 @@
 /* Background image */
 html {
-    background: url(pexels-bruthethe-1910225.jpg) no-repeat center fixed;
+    background: url(pexels-hay-photograp-95469-309293.jpg) no-repeat center fixed;
 }
 
 
@@ -24,7 +24,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     border-radius: 15px;
     border-style: solid;
     border-color: white;
@@ -50,5 +50,5 @@ li a {
 }
 
 li a:hover {
-    background-color:  lightskyblue ; 
+    background-color: royalblue; 
 }
