@@ -1,7 +1,7 @@
 /* Background image */
 html {
     background: url(pexels-hay-photograp-95469-309293.jpg) no-repeat center fixed;
-}
+    /* Joe */
 
 
 /* Title */
@@ -13,7 +13,13 @@ html {
     font-family: Arial;
     background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
 
-} 
+   } 
+
+.Sub-Title {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
 
 
 
@@ -51,4 +57,24 @@ li a {
 
 li a:hover {
     background-color: royalblue; 
+    transition: background-color .2 ease-in;
+ }
+
+ .Duck {
+    text-align: center; /* Centers the image and text */
+    margin: 20px; /* Adds spacing around the div */
+}
+.Duck img {
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto;    /* Maintains the aspect ratio */
+}
+
+.DuckText {
+    color: yellow;
+    text-align: center;
+}
+    
+
+   
+   
 }
